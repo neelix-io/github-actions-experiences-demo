@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 Transparency is often perceived as something new that is absent or yet to be introduced. Given its meaning and the perception that there’s something different or extra to deal with, it is therefore normal to encounter emotional resistance to transparency. Sometimes the resistance is fobbed off as “our organization is not ready for it”, or through the concern that people are robbed of the opportunity to form a narrative.
 
 
