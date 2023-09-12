@@ -1,4 +1,4 @@
-name: Create Experience for Too Long Running PR
+name: Create Experience for Nice and Fast PR
 
 on:
   pull_request:
@@ -6,21 +6,22 @@ on:
       - closed
 
 env:
-  SIMPLE_EXP_SUMMARY: 'A tad too long running PR experience...'
+  SIMPLE_EXP_SUMMARY: 'A nice and fast PR experience...'
 
 jobs:
   create-experience-smth-is-fishy:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: Create Experience for too long running PR
+      - name: Create Experience for nice and fast PR
         uses: neelix-io/practices-experience-action@v1.0.0
         with:
           api-token: ${{ secrets.NEELIX_API_TOKEN }}
           consortium-id: ${{ vars.CONSORTIUM_ID }}
-          commentary: "A tad too long running PR experience"
-          weight: -1
+          commentary: "A nice and fast PR experience"
+          weight: 1
           activity-id: 49
-          category-ids: 30107
+          category-ids: 96, 95
           team-ids: 7164
-          days-to-merge-limit: 5,
+          days-to-merge-limit: ,2
+          additional-commits-limit: ,2

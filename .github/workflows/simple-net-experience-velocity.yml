@@ -1,0 +1,30 @@
+name: Create Experience Related to Velocity
+
+on:
+  pull_request:
+    types:
+      - closed
+
+env:
+  SIMPLE_EXP_SUMMARY: 'Reflection on Velocity ...'
+
+jobs:
+  create-experience-smth-is-fishy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Experience - Reflection on Velocity
+        uses: neelix-io/simple-net-experience-action@v1.0.0
+        with:
+          api-token: ${{ secrets.NEELIX_API_TOKEN }}
+          consortium-id: ${{ vars.CONSORTIUM_ID }}
+          experience-summary: ${{ env.SIMPLE_EXP_SUMMARY }}
+          keywords: |
+            {
+              "causes drag": -1,
+              "boil down the ocean": -3,
+              "great turnaround": 1
+            }
+          activity-id: 49
+          category-ids: 95
+          team-ids: 7164
