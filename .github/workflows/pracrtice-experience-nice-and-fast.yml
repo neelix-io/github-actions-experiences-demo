@@ -23,7 +23,7 @@ jobs:
           commentary: "A nice and fast PR experience"
           weight: 1
           activity-id: 49
-          category-ids: 96, 95
+          category-ids: 96,95
           team-ids: 7164
           days-to-merge-limit: ,2
           additional-commits-limit: ,2
