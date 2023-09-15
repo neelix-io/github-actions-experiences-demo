@@ -12,9 +12,11 @@ jobs:
   create-experience-smth-is-fishy:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     steps:
       - name: Create Experience - Something is fishy
-        uses: neelix-io/simple-net-experience-action@v1.0.0
+        uses: neelix-io/simple-net-experience-action@v1
         with:
           api-token: ${{ secrets.NEELIX_API_TOKEN }}
           consortium-id: ${{ vars.CONSORTIUM_ID }}
