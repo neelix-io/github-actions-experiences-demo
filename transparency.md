@@ -1,3 +1,12 @@
+# Introduction
+Transparency is often perceived as something new that is absent or yet to be introduced. Given its meaning and the perception that there’s something different or extra to deal with, it is therefore normal to encounter emotional resistance to transparency. Sometimes the resistance is fobbed off as “our organization is not ready for it”, or through the concern that people are robbed of the opportunity to form a narrative.
+
+
+This article, the third in this series, positions transparency as a holistic system and examines the two top sources of resistance you are likely to encounter in its pursuit.
+
+Understanding transparency as a holistic system
+Transparency is analogous to the nervous system of any organization, which is designed to carry instantaneous and accurate signals to the brain. The fact that such signals may get dropped or mutated should not exclude discussing transparency; it is a system that already exists. The more important discussion should be about the effectiveness and health of information flows. The fact that organizations already practise open sharing of kudos (for example on internal applications or publicly via LinkedIn) demonstrates that transparency is not a novelty.
+
 # Organizational behavior typically follows these norms:
 
 Positive information is unrestricted in its form, narrative, and number of channels. There is minimal mutation of information as it travels between the event trigger and the brain.
@@ -21,7 +30,7 @@ Top concern about transparency - narrative forming factor
 Typically, a frequent argument against transparency goes like this: “Even if I agree that something different needs to happen in regards to communication of challenges, I feel that lack of ability to shape the narrative will cause more damage”. People voicing such concerns prefer investing in surveys and the feedback loop of management messaging.
 
 
-This viewpoint runs counter to what transparency is really about:
+## This viewpoint runs counter to what transparency is really about:
 
 Information discovery already occurred at the source (typically at the grassroots)
 Narrative control at the grassroots is not possible as it is after-the-fact. For example, no manager will be quick enough to stop people from forming their own opinions and feelings
@@ -64,7 +73,7 @@ Second top concern about transparency - net measure of sentiment
 Second most common concern expressed during the conversation about improving transparency is always about net sentiment. It is true that after release of pent-up pressure, the free experience sharing might show a net negative sentiment measure.
 
 
-Here is the best way of resolving this concern:
+## Here is the best way of resolving this concern:
 
 Firstly, establish a social contract agreement that the only truly important measure is whether things are better today than they were yesterday
 Leaders should help the team and be accountable for practising the growth mindset which focuses on persistent change and not specific events or net measure
@@ -113,16 +122,6 @@ Healthy organizations do exist - you do not have to accept the status quo. If yo
 Accepting poor health of the nervous system is the same as continuing to dance with a broken leg - you eventually end up with a Dead Horse scenario. If you want to retain talent, having meaningful transparency is a critical capability. At the same time, transparency is the one tool that can help leaders with keeping organizations sharp and achieving goals. 
 
 
-// TODO - Placeholder (to be moved up)
-
-# Introduction
-Transparency is often perceived as something new that is absent or yet to be introduced. Given its meaning and the perception that there’s something different or extra to deal with, it is therefore normal to encounter emotional resistance to transparency. Sometimes the resistance is fobbed off as “our organization is not ready for it”, or through the concern that people are robbed of the opportunity to form a narrative.
-
-
-This article, the third in this series, positions transparency as a holistic system and examines the two top sources of resistance you are likely to encounter in its pursuit.
-
-Understanding transparency as a holistic system
-Transparency is analogous to the nervous system of any organization, which is designed to carry instantaneous and accurate signals to the brain. The fact that such signals may get dropped or mutated should not exclude discussing transparency; it is a system that already exists. The more important discussion should be about the effectiveness and health of information flows. The fact that organizations already practise open sharing of kudos (for example on internal applications or publicly via LinkedIn) demonstrates that transparency is not a novelty.
 
 
 
