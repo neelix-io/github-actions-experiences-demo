@@ -1,7 +1,4 @@
-
-
-# TODO - Section 1
-Organizational behavior typically follows these norms:
+# Organizational behavior typically follows these norms:
 
 Positive information is unrestricted in its form, narrative, and number of channels. There is minimal mutation of information as it travels between the event trigger and the brain.
 Information perceived as negative, however, is vetted and may be suppressed due to disengagement, fear, or simply gets mutated through narrative. The result is that the brain may not receive critical information.
