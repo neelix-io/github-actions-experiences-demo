@@ -12,6 +12,8 @@ jobs:
   create-experience-smth-is-fishy:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     steps:
       - name: Create Experience for Big PR
         uses: neelix-io/practices-experience-action@v1.0.0

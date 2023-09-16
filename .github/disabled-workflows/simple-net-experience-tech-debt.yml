@@ -1,4 +1,4 @@
-name: Create Experience Related to Velocity
+name: Create Experience Related to Tech Debt
 
 on:
   pull_request:
@@ -6,14 +6,16 @@ on:
       - closed
 
 env:
-  SIMPLE_EXP_SUMMARY: 'Reflection on Velocity ...'
+  SIMPLE_EXP_SUMMARY: 'Reflection on Tech Debt ...'
 
 jobs:
   create-experience-smth-is-fishy:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     steps:
-      - name: Create Experience - Reflection on Velocity
+      - name: Create Experience - Reflection on Tech Debt
         uses: neelix-io/simple-net-experience-action@v1.0.0
         with:
           api-token: ${{ secrets.NEELIX_API_TOKEN }}
@@ -21,10 +23,9 @@ jobs:
           experience-summary: ${{ env.SIMPLE_EXP_SUMMARY }}
           keywords: |
             {
-              "causes drag": -1,
-              "boil down the ocean": -3,
-              "great turnaround": 1
+              "regrettable tech debt": -1,
+              "paying back tech debt": 1
             }
           activity-id: 49
-          category-ids: 95
+          category-ids: 100,30108,95
           team-ids: 7164
