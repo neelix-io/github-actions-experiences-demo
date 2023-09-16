@@ -16,7 +16,7 @@ jobs:
       pull-requests: read
     steps:
       - name: Create Experience - Something is fishy
-        uses: neelix-io/simple-net-experience-action@v1
+        uses: neelix-io/simple-net-experience-action@main
         with:
           api-token: ${{ secrets.NEELIX_API_TOKEN }}
           consortium-id: ${{ vars.CONSORTIUM_ID }}

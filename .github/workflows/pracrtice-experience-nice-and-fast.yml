@@ -1,29 +1,29 @@
-name: Create Experience for Nice and Fast PR
+#name: Create Experience for Nice and Fast PR
 
-on:
-  pull_request:
-    types:
-      - closed
+#on:
+  #pull_request:
+    #types:
+      #- closed
 
-env:
-  SIMPLE_EXP_SUMMARY: 'A nice and fast PR experience...'
+#env:
+  #SIMPLE_EXP_SUMMARY: 'A nice and fast PR experience...'
 
-jobs:
-  create-experience-smth-is-fishy:
-    if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: read
-    steps:
-      - name: Create Experience for nice and fast PR
-        uses: neelix-io/practices-experience-action@v1
-        with:
-          api-token: ${{ secrets.NEELIX_API_TOKEN }}
-          consortium-id: ${{ vars.CONSORTIUM_ID }}
-          commentary: "A nice and fast PR experience"
-          weight: 1
-          activity-id: 49
-          category-ids: 96,95
-          team-ids: 7164
-          days-to-merge-limit: ',2'
-          additional-commits-limit: ',2'
+#jobs:
+  #create-experience-smth-is-fishy:
+    #if: github.event.pull_request.merged == true
+    #runs-on: ubuntu-latest
+    #permissions:
+      #pull-requests: read
+    #steps:
+      #- name: Create Experience for nice and fast PR
+        #uses: neelix-io/practices-experience-action@v1
+        #with:
+          #api-token: ${{ secrets.NEELIX_API_TOKEN }}
+          #consortium-id: ${{ vars.CONSORTIUM_ID }}
+          #commentary: "A nice and fast PR experience"
+          #weight: 1
+          #activity-id: 49
+          #category-ids: 96,95
+          #team-ids: 7164
+          #days-to-merge-limit: ',2'
+          #additional-commits-limit: ',2'
