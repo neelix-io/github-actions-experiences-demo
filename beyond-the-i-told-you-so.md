@@ -1,5 +1,5 @@
-// TODO need heading 
-//
+# Heading 1
+
 Recognizing that certain things could be done better is part of human nature. Teams typically face scenarios where one forward-thinking person can anticipate the wrong direction. Likewise, there are situations where the entire team sees the wrong direction from their leadership.
 
 Mature teams are the ones where "I told you so" / "We told you so" is converted into "He told us so" / "They told me so". This type of honesty is akin to a difference between bravado and bravery. Only a brave person is prepared to fall on his/her sword. Accountability is ineffective if it is a post-fact punishment. A form of inspection needs to be `continuously integrated` into life of teams and organisations. Naturally, this is much easier said than done.
