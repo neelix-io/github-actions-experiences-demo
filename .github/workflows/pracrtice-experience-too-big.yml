@@ -9,7 +9,7 @@ env:
   SIMPLE_EXP_SUMMARY: 'A tad too big PR experience...'
 
 jobs:
-  create-experience-smth-is-fishy:
+  create-experience-pr-too-big:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
