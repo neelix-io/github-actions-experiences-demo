@@ -9,7 +9,7 @@ env:
   SIMPLE_EXP_SUMMARY: 'Reflection on Tech Debt ...'
 
 jobs:
-  create-experience-smth-is-fishy:
+  create-experience-tech-debt:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
