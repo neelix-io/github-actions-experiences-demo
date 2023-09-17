@@ -121,6 +121,8 @@ Healthy organizations do exist - you do not have to accept the status quo. If yo
 
 Accepting poor health of the nervous system is the same as continuing to dance with a broken leg - you eventually end up with a Dead Horse scenario. If you want to retain talent, having meaningful transparency is a critical capability. At the same time, transparency is the one tool that can help leaders with keeping organizations sharp and achieving goals. 
 
+[Learn more @ team.neelix.io](https://team.neelix.io/transparency-at-workplace)
+
 
 
 
