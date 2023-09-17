@@ -9,7 +9,7 @@ env:
   SIMPLE_EXP_SUMMARY: 'Reflection on Velocity ...'
 
 jobs:
-  create-experience-smth-is-fishy:
+  create-experience-velocity:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
@@ -25,7 +25,7 @@ jobs:
             {
               "causes drag": -1,
               "boil down the ocean": -3,
-              "great turnaround": 1
+              "great turnaround": 2
             }
           activity-id: 49
           category-ids: 95
